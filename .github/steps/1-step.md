@@ -5,7 +5,7 @@ You are a developer on the Octomatch team - the Octodex memory card game.
 <details>
 <summary>🎮 Preview the Octomatch game</summary>
 
-<img width="600" alt="Octomatch game board" src="../images/octomatch.png" />
+<img width="600" alt="Octomatch game board" src="https://github.com/alirezachali/skills-workflow-artifacts/blob/main/.github/images/octomatch.png?raw=true" />
 </details>
 
 You've already set up tests that generate useful reports. Now you want to run those tests in GitHub Actions and make the results easy to access for every run.
@@ -14,7 +14,7 @@ To do that, your team has decided to upload these reports as 📦 **workflow art
 
 | Browser Tests Report                                                                 | Coverage Report                                                               |
 | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| <img width="450" alt="Playwright test report" src="../images/playwright-report.png" /> | <img width="450" alt="Coverage report" src="../images/coverage-report.png" /> |
+| <img width="450" alt="Playwright test report" src="https://github.com/alirezachali/skills-workflow-artifacts/blob/main/.github/images/playwright-report.png?raw=true" /> | <img width="450" alt="Coverage report" src="https://github.com/alirezachali/skills-workflow-artifacts/blob/main/.github/images/coverage-report.png?raw=true" /> |
 
 ### 📖 Theory: What are workflow artifacts, and when should you use them?
 
@@ -111,13 +111,13 @@ Let's start off by creating a workflow that will run unit tests with coverage an
 
 1. When the workflow succeeds, you should be able to see the uploaded artifact in the workflow summary page:
 
-    <img width="600" alt="Workflow summary page showing the uploaded test coverage report artifact" src="../images/tests-coverage-report-artifact.png" />
+    <img width="600" alt="Workflow summary page showing the uploaded test coverage report artifact" src="https://github.com/alirezachali/skills-workflow-artifacts/blob/main/.github/images/tests-coverage-report-artifact.png?raw=true" />
 
 1. Click the artifact name to download it. It will download as a `.zip` file.
 
 1. Extract the downloaded `.zip` file and open the included `index.html` file to view the report in a more readable format.
 
-    <img width="600" alt="Coverage report opened from the downloaded workflow artifact" src="../images/coverage-report.png" />
+    <img width="600" alt="Coverage report opened from the downloaded workflow artifact" src="https://github.com/alirezachali/skills-workflow-artifacts/blob/main/.github/images/coverage-report.png?raw=true" />
 
 1. When the workflow completes, Mona will provide feedback and next steps.
 

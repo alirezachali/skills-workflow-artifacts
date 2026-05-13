@@ -95,13 +95,13 @@ Nice work! If you want an extra challenge, this bonus activity adds an approval 
 1. In the left sidebar, select **[Environments](https://github.com/{{full_repo_name}}/settings/environments)** tab.
 1. Click the **prod** environment to edit it. Add yourself (`{{ login }}`) as a required reviewer and save the changes.
 
-    <img width="900" alt="Prod environment settings showing required reviewers" src="../images/required-reviewers.png" />
+    <img width="900" alt="Prod environment settings showing required reviewers" src="https://github.com/alirezachali/skills-workflow-artifacts/blob/main/.github/images/required-reviewers.png?raw=true" />
 
    This will cause any job that targets `environment: prod` to pause and wait for your review before proceeding.
 
 1. Go to the **[Actions](https://github.com/{{full_repo_name}}/actions/workflows/build-deploy.yml)** tab and use the `Run workflow` dropdown to manually trigger the `Build and Deploy` workflow.
 
-   <img width="900" alt="Manually trigger the Build and Deploy workflow from the Actions tab" src="../images/trigger-build-deploy.png" />
+   <img width="900" alt="Manually trigger the Build and Deploy workflow from the Actions tab" src="https://github.com/alirezachali/skills-workflow-artifacts/blob/main/.github/images/trigger-build-deploy.png?raw=true" />
 
    > 🪧 **Note:** This button is available because of the `workflow_dispatch` event trigger you added
 
@@ -110,7 +110,7 @@ Nice work! If you want an extra challenge, this bonus activity adds an approval 
 
 1. Once the `Deploy Prod` workflow is triggered, click on it to see the details. You should see a yellow banner indicating that the job is waiting for approval.
 
-    <img width="900" alt="Workflow run waiting for approval before the production job can continue" src="../images/approve-workflow.png" />
+    <img width="900" alt="Workflow run waiting for approval before the production job can continue" src="https://github.com/alirezachali/skills-workflow-artifacts/blob/main/.github/images/approve-workflow.png?raw=true" />
 
 1. You’ll now be prompted to approve or reject the deployment. Your message and decision will be displayed in the workflow run details for auditing purposes.
 

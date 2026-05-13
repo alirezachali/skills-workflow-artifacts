@@ -60,8 +60,8 @@ Now we will extend the workflow to run [Playwright](https://playwright.dev/) bro
 
 1. When the workflow succeeds, you should see the uploaded Playwright report artifact (`index.html`) in the workflow summary page:
 
-   <img width="900" alt="Workflow summary page showing the uploaded artifact" src="../images/tests-playwright-report-artifact.png" />
+   <img width="900" alt="Workflow summary page showing the uploaded artifact" src="https://github.com/alirezachali/skills-workflow-artifacts/blob/main/.github/images/tests-playwright-report-artifact.png?raw=true" />
 
 1. Click on the artifact to open the Playwright report directly in the browser.
 
-   <img width="900" alt="Playwright report opened directly in the browser from the artifact page" src="../images/playwright-report.png" />
+   <img width="900" alt="Playwright report opened directly in the browser from the artifact page" src="https://github.com/alirezachali/skills-workflow-artifacts/blob/main/.github/images/playwright-report.png?raw=true" />

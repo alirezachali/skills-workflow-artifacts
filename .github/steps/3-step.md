@@ -90,4 +90,4 @@ Let's set up a workflow that will build the site and upload it as an artifact, t
 
    You should see the output of the `tree website` command showing the contents of the downloaded artifact
 
-    <img width="900" alt="Logs of the Deploy Dev job showing the output of the tree command with the downloaded artifact contents" src="../images/deploy-dev-artifact-contents.png" />
+    <img width="900" alt="Logs of the Deploy Dev job showing the output of the tree command with the downloaded artifact contents" src="https://github.com/alirezachali/skills-workflow-artifacts/blob/main/.github/images/deploy-dev-artifact-contents.png?raw=true" />
